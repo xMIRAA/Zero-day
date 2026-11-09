@@ -140,6 +140,16 @@
   background: #6affb7;
 }
 
+.button-register {
+  background: transparent;
+  border: 1px solid var(--green);
+  color: var(--green);
+}
+
+.button-register:hover {
+  background: rgba(0, 255, 133, 0.1);
+}
+
 .button-outline,
 .button-ghost {
   border: 1px solid var(--green);

@@ -57,7 +57,7 @@ function Navbar({ onRegister }) {
             </a>
           ))}
         </div>
-        <button className="button button-small button-outline" type="button" onClick={() => { closeMenu(); onRegister() }}>
+        <button className="button button-small button-register" type="button" onClick={() => { closeMenu(); onRegister() }}>
           Register
         </button>
       </nav>

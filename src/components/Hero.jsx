@@ -67,7 +67,7 @@ function Hero({ onRegister }) {
               <a className="button button-primary" href="#challenges">
                 Explore challenges <ArrowRight size={17} />
               </a>
-              <button className="button button-ghost" type="button" onClick={onRegister}>
+              <button className="button button-register" type="button" onClick={onRegister}>
                 Register now <ArrowDownRight size={17} />
               </button>
             </div>

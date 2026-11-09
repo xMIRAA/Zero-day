@@ -41,36 +41,52 @@ The project intentionally uses basic functional components, `useState`, `useEffe
 
 ### Requirements
 
-- Node.js
-- npm
+- [Node.js](https://nodejs.org/) 18 or newer
+- npm (included with Node.js)
 
-### Install dependencies
+### Run locally
 
-```bash
-npm install
-```
+1. Clone the repository:
 
-### Start the development server
+   ```bash
+   git clone https://github.com/xMIRAA/Zero-day.git
+   ```
 
-```bash
-npm run dev
-```
+2. Move into the project directory:
 
-Vite will display the local development URL in the terminal.
+   ```bash
+   cd Zero-day
+   ```
 
-### Create a production build
+3. Install the project dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the Vite development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL shown in the terminal, usually `http://localhost:5173`.
+
+### Other commands
+
+Create a production build:
 
 ```bash
 npm run build
 ```
 
-### Preview the production build
+Preview the production build locally:
 
 ```bash
 npm run preview
 ```
 
-### Run linting
+Run the linter:
 
 ```bash
 npm run lint
